@@ -1,0 +1,9 @@
+{
+    "$schema": "./api.schema.json",
+    "port": 8080,
+    "jwtSecret": "n vj4Q§U N§ Q>A'')=/(§ V",
+    "hostIface": null,
+    "schemaLocation": "schema/schema.graphql",
+    "debugNoLogin":false,
+    "createAllUsersAsGlobalAdmin": true
+}

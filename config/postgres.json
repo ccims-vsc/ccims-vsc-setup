@@ -1,0 +1,8 @@
+{
+    "$schema": "./postgres.schema.json",
+    "user": "ccims-user",
+    "password": "ccims-password",
+    "database": "ccims",
+    "host": "db",
+    "port": 5432
+}
