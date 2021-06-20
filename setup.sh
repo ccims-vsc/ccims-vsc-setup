@@ -10,7 +10,8 @@ cd /tmp
 git clone https://github.com/ccims-vsc/ccims-vsc.git
 cd ccims-vsc
 npm run init-all
-npm i -g vsec
+npm i -g vsce
 vsce package
 cd /home/ccims/ccims-vsc
 cp /tmp/ccims-vsc/*.vsix extension.vsix
+git clone https://github.com/ccims-vsc/example-project.git
