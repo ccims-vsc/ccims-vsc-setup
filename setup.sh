@@ -6,6 +6,14 @@ cp ../ccims-vsc-setup/config/markdown.json config/markdown.json
 cp ../ccims-vsc-setup/config/common.json config/common.json
 npm i
 npm run database-file
+npm i -g typescript
+tsc
+cp ../ccims-vsc-setup/docker-compose.yaml docker-compose.yaml
+cd ..
+git clone https://github.com/ccims-vsc/ccims-testdata.git
+cd ccims-testdata
+npm i
+tsc
 cd /tmp
 git clone https://github.com/ccims-vsc/ccims-vsc.git
 cd ccims-vsc
