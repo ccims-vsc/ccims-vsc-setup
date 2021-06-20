@@ -1,5 +1,6 @@
 git clone https://github.com/ccims/ccims-backend-gql.git
 cd ccims-backend-gql
+git checkout dev
 cp ../ccims-vsc-setup/config/postgres.json config/postgres.json
 cp ../ccims-vsc-setup/config/api.json config/api.json
 cp ../ccims-vsc-setup/config/markdown.json config/markdown.json
