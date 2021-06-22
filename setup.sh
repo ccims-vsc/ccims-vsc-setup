@@ -2,16 +2,16 @@ cd /tmp
 git clone https://github.com/ccims/ccims-backend-gql.git
 cd ccims-backend-gql
 git checkout dev
-cp /home/ccims/ccims-vsc-setup/config/postgres.json config/postgres.json
-cp /home/ccims/ccims-vsc-setup/config/api.json config/api.json
-cp /home/ccims/ccims-vsc-setup/config/markdown.json config/markdown.json
-cp /home/ccims/ccims-vsc-setup/config/common.json config/common.json
+cp /home/ccims/ccims-vsc/ccims-vsc-setup/config/postgres.json config/postgres.json
+cp /home/ccims/ccims-vsc/ccims-vsc-setup/config/api.json config/api.json
+cp /home/ccims/ccims-vsc/ccims-vsc-setup/config/markdown.json config/markdown.json
+cp /home/ccims/ccims-vsc/ccims-vsc-setup/config/common.json config/common.json
 npm i
 npm run database-file
 npm i -g typescript
 tsc
-cp -R /tmp/ccims-backend-gql /home/ccims/ccims-backend-gql
-cd /home/ccims/ccims-backend-gql
+cp -R /tmp/ccims-backend-gql /home/ccims/ccims-vsc/ccims-backend-gql
+cd /home/ccims/ccims-vsc/ccims-backend-gql
 cp ../ccims-vsc-setup/docker-compose.yaml docker-compose.yaml
 cd ..
 git clone https://github.com/ccims-vsc/ccims-testdata.git
