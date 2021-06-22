@@ -29,3 +29,5 @@ services:
     command: "node dist/index.js"
     depends_on:
       - db
+    environment: 
+      - "API_URL=http://server:8080"
