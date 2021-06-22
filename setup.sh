@@ -1,3 +1,4 @@
+cd /tmp
 git clone https://github.com/ccims/ccims-backend-gql.git
 cd ccims-backend-gql
 git checkout dev
@@ -9,6 +10,8 @@ npm i
 npm run database-file
 npm i -g typescript
 tsc
+cp -R /tmp/ccims-backend-gql /home/ccims/ccims-backend-gql
+cd /home/ccims/ccims-backend-gql
 cp ../ccims-vsc-setup/docker-compose.yaml docker-compose.yaml
 cd ..
 git clone https://github.com/ccims-vsc/ccims-testdata.git
