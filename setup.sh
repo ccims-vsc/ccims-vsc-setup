@@ -19,7 +19,7 @@ cd ccims-testdata
 npm i
 tsc
 cd /tmp
-git clone https://github.com/ccims/ccims-vsc.git
+git clone --recurse-submodules https://github.com/ccims/ccims-vsc.git
 cd ccims-vsc
 npm run init-all
 npm i -g vsce
